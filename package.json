@@ -1,0 +1,12 @@
+{
+  "name": "ci_setup",
+  "version": "1.0.0",
+  "description": "Project for storing postman tests",
+  "scripts": {
+    "api-test-ci": "newman run LunchAndLearn.postman_collection.json -r cli,html"
+  },
+  "author": "Sandeep Koar",
+    "dependencies": {
+    "newman": "^4.1.0"
+  }
+}
